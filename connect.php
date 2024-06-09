@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "slezakdb";
-$password = "Databaza1";
-$dbname = "northwind24"; 
+$username = "userdb";
+$password = "databaza";
+$dbname = "northwindmysql"; 
 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
